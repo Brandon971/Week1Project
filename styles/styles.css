@@ -1,0 +1,51 @@
+/*Place the menu to the right of the page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: inline-flex;
+    min-width: 100%;
+    background-color: rgb(178, 174, 174);
+    min-height: 85px;
+    
+
+}
+.menu {
+    /* margin: auto 0; */
+    align-self: center;
+    margin: auto;
+    
+}
+.menu-list{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li{
+    padding: 30px;
+    
+}
+.logo{
+    width: 20em;
+    height: 80px;
+}
+a:active{
+    color: skyblue;
+}
+a:hover{
+    color: skyblue;
+    font-size: 17px; 
+    transition: 0.3s;
+}   
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
